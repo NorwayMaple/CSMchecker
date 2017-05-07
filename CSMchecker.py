@@ -51,7 +51,7 @@ emailContent += "Best,\n\nAbe Polk"
 recipients = []
 shouldSendEmail = False
 ccFlag = False
-if ("China" in articleSearchesPresent or "China" in articleSearchesPresent):
+if ("Taiwan" in articleSearchesPresent or "China" in articleSearchesPresent):
     recipients.append(os.environ.get('EMAIL_1'))
     recipients.append(os.environ.get('EMAIL_2'))
     shouldSendEmail = True
